@@ -1,0 +1,578 @@
+18:33:42.477 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/findAllCustomer/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+
+18:33:42.477 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/findAllCustomer/1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+
+18:33:42.478 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/findAllCustomer/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+
+18:33:42.477 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/findAllCustomer/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+
+18:33:42.997 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - response time in milliseconds: 486.93
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 23 Jun 2021 13:03:42 GMT
+1 < Keep-Alive: timeout=60
+1 < Transfer-Encoding: chunked
+{"cId":2,"cName":"abc","cAddress":"fve"}
+
+18:33:42.997 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 488.88
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 23 Jun 2021 13:03:42 GMT
+1 < Keep-Alive: timeout=60
+1 < Transfer-Encoding: chunked
+{"cId":1,"cName":"abcd","cAddress":"fvev"}
+
+18:33:42.997 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 486.95
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 23 Jun 2021 13:03:42 GMT
+1 < Keep-Alive: timeout=60
+1 < Transfer-Encoding: chunked
+{"cId":2,"cName":"abc","cAddress":"fve"}
+
+18:33:42.998 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - response time in milliseconds: 489.77
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 23 Jun 2021 13:03:42 GMT
+1 < Keep-Alive: timeout=60
+1 < Transfer-Encoding: chunked
+{"cId":2,"cName":"abc","cAddress":"fve"}
+
+18:33:43.004 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - [print] expectedoutput-----> [
+  {
+    "cId": 1,
+    "cName": "abcd",
+    "cAddress": "fvev"
+  },
+  {
+    "cId": 2,
+    "cName": "abc",
+    "cAddress": "fve"
+  },
+  {
+    "cId": 3,
+    "cName": "abcd",
+    "cAddress": "fvev"
+  },
+  {
+    "cId": 4,
+    "cName": "h",
+    "cAddress": "asjcc"
+  }
+]
+
+18:33:43.005 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] expectedoutput-----> [
+  {
+    "cId": 1,
+    "cName": "abcd",
+    "cAddress": "fvev"
+  },
+  {
+    "cId": 2,
+    "cName": "abc",
+    "cAddress": "fve"
+  },
+  {
+    "cId": 3,
+    "cName": "abcd",
+    "cAddress": "fvev"
+  },
+  {
+    "cId": 4,
+    "cName": "h",
+    "cAddress": "asjcc"
+  }
+]
+
+18:33:43.004 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - [print] expectedoutput-----> [
+  {
+    "cId": 1,
+    "cName": "abcd",
+    "cAddress": "fvev"
+  },
+  {
+    "cId": 2,
+    "cName": "abc",
+    "cAddress": "fve"
+  },
+  {
+    "cId": 3,
+    "cName": "abcd",
+    "cAddress": "fvev"
+  },
+  {
+    "cId": 4,
+    "cName": "h",
+    "cAddress": "asjcc"
+  }
+]
+
+18:33:43.008 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - [print] {
+  "cId": 2,
+  "cName": "abc",
+  "cAddress": "fve"
+}
+
+18:33:43.010 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] {
+  "cId": 2,
+  "cName": "abc",
+  "cAddress": "fve"
+}
+
+18:33:43.011 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - [print] {
+  "cId": 2,
+  "cName": "abc",
+  "cAddress": "fve"
+}
+
+18:33:43.026 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/findAllCustomer
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+
+18:33:43.072 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 45.54
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 23 Jun 2021 13:03:42 GMT
+1 < Keep-Alive: timeout=60
+1 < Transfer-Encoding: chunked
+[{"cId":1,"cName":"abcd","cAddress":"fvev"},{"cId":2,"cName":"abc","cAddress":"fve"},{"cId":3,"cName":"abcd","cAddress":"fvev"},{"cId":4,"cName":"h","cAddress":"asjcc"}]
+
+18:33:43.078 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] response-----> [
+  {
+    "cId": 1,
+    "cName": "abcd",
+    "cAddress": "fvev"
+  },
+  {
+    "cId": 2,
+    "cName": "abc",
+    "cAddress": "fve"
+  },
+  {
+    "cId": 3,
+    "cName": "abcd",
+    "cAddress": "fvev"
+  },
+  {
+    "cId": 4,
+    "cName": "h",
+    "cAddress": "asjcc"
+  }
+]
+
+18:33:43.083 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - assertion failed: path: $[0].cId, actual: 1, expected: 2, reason: not equal (Integer)
+18:33:43.406 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<fail>> feature 2 of 2: classpath:CustomerDetails.feature
+18:35:31.472 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/findAllCustomer/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+
+18:35:31.471 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/findAllCustomer/1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+
+18:35:31.472 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/findAllCustomer/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+
+18:35:31.471 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/findAllCustomer/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+
+18:35:31.595 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - response time in milliseconds: 100.45
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 23 Jun 2021 13:05:31 GMT
+1 < Keep-Alive: timeout=60
+1 < Transfer-Encoding: chunked
+{"cId":2,"cName":"abc","cAddress":"fve"}
+
+18:35:31.595 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - response time in milliseconds: 103.16
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 23 Jun 2021 13:05:31 GMT
+1 < Keep-Alive: timeout=60
+1 < Transfer-Encoding: chunked
+{"cId":2,"cName":"abc","cAddress":"fve"}
+
+18:35:31.595 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 110.21
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 23 Jun 2021 13:05:31 GMT
+1 < Keep-Alive: timeout=60
+1 < Transfer-Encoding: chunked
+{"cId":2,"cName":"abc","cAddress":"fve"}
+
+18:35:31.604 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - [print] expectedoutput-----> [
+  {
+    "cId": 1,
+    "cName": "abcd",
+    "cAddress": "fvev"
+  },
+  {
+    "cId": 2,
+    "cName": "abc",
+    "cAddress": "fve"
+  },
+  {
+    "cId": 3,
+    "cName": "abcd",
+    "cAddress": "fvev"
+  },
+  {
+    "cId": 4,
+    "cName": "h",
+    "cAddress": "asjcc"
+  }
+]
+
+18:35:31.608 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - [print] {
+  "cId": 2,
+  "cName": "abc",
+  "cAddress": "fve"
+}
+
+18:35:31.608 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] expectedoutput-----> [
+  {
+    "cId": 1,
+    "cName": "abcd",
+    "cAddress": "fvev"
+  },
+  {
+    "cId": 2,
+    "cName": "abc",
+    "cAddress": "fve"
+  },
+  {
+    "cId": 3,
+    "cName": "abcd",
+    "cAddress": "fvev"
+  },
+  {
+    "cId": 4,
+    "cName": "h",
+    "cAddress": "asjcc"
+  }
+]
+
+18:35:31.609 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] {
+  "cId": 2,
+  "cName": "abc",
+  "cAddress": "fve"
+}
+
+18:35:31.613 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 104.14
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 23 Jun 2021 13:05:31 GMT
+1 < Keep-Alive: timeout=60
+1 < Transfer-Encoding: chunked
+{"cId":1,"cName":"abcd","cAddress":"fvev"}
+
+18:35:31.618 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - [print] expectedoutput-----> [
+  {
+    "cId": 1,
+    "cName": "abcd",
+    "cAddress": "fvev"
+  },
+  {
+    "cId": 2,
+    "cName": "abc",
+    "cAddress": "fve"
+  },
+  {
+    "cId": 3,
+    "cName": "abcd",
+    "cAddress": "fvev"
+  },
+  {
+    "cId": 4,
+    "cName": "h",
+    "cAddress": "asjcc"
+  }
+]
+
+18:35:31.619 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - [print] {
+  "cId": 2,
+  "cName": "abc",
+  "cAddress": "fve"
+}
+
+18:35:31.667 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/findAllCustomer
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+
+18:35:31.685 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 12.73
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 23 Jun 2021 13:05:31 GMT
+1 < Keep-Alive: timeout=60
+1 < Transfer-Encoding: chunked
+[{"cId":1,"cName":"abcd","cAddress":"fvev"},{"cId":2,"cName":"abc","cAddress":"fve"},{"cId":3,"cName":"abcd","cAddress":"fvev"},{"cId":4,"cName":"h","cAddress":"asjcc"}]
+
+18:35:31.691 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] response-----> [
+  {
+    "cId": 1,
+    "cName": "abcd",
+    "cAddress": "fvev"
+  },
+  {
+    "cId": 2,
+    "cName": "abc",
+    "cAddress": "fve"
+  },
+  {
+    "cId": 3,
+    "cName": "abcd",
+    "cAddress": "fvev"
+  },
+  {
+    "cId": 4,
+    "cName": "h",
+    "cAddress": "asjcc"
+  }
+]
+
+18:35:31.742 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] cId-----> 1
+18:35:31.751 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] url-----> http://localhost:8080
+18:35:32.020 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<pass>> feature 2 of 2: classpath:CustomerDetails.feature
+18:36:42.706 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/findAllCustomer/1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_131)
+
+18:36:42.706 [ForkJoinPool-1-worker-4] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/findAllCustomer/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_131)
+
+18:36:42.706 [ForkJoinPool-1-worker-2] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/findAllCustomer/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_131)
+
+18:36:42.706 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/findAllCustomer/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_131)
+
+18:36:42.827 [ForkJoinPool-1-worker-2] DEBUG com.intuit.karate - response time in milliseconds: 106.98
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 23 Jun 2021 13:06:42 GMT
+1 < Keep-Alive: timeout=60
+1 < Transfer-Encoding: chunked
+{"cId":2,"cName":"abc","cAddress":"fve"}
+
+18:36:42.827 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 107.17
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 23 Jun 2021 13:06:42 GMT
+1 < Keep-Alive: timeout=60
+1 < Transfer-Encoding: chunked
+{"cId":1,"cName":"abcd","cAddress":"fvev"}
+
+18:36:42.827 [ForkJoinPool-1-worker-4] DEBUG com.intuit.karate - response time in milliseconds: 106.82
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 23 Jun 2021 13:06:42 GMT
+1 < Keep-Alive: timeout=60
+1 < Transfer-Encoding: chunked
+{"cId":2,"cName":"abc","cAddress":"fve"}
+
+18:36:42.827 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 107.10
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 23 Jun 2021 13:06:42 GMT
+1 < Keep-Alive: timeout=60
+1 < Transfer-Encoding: chunked
+{"cId":2,"cName":"abc","cAddress":"fve"}
+
+18:36:42.835 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - [print] expectedoutput-----> [
+  {
+    "cId": 1,
+    "cName": "abcd",
+    "cAddress": "fvev"
+  },
+  {
+    "cId": 2,
+    "cName": "abc",
+    "cAddress": "fve"
+  },
+  {
+    "cId": 3,
+    "cName": "abcd",
+    "cAddress": "fvev"
+  },
+  {
+    "cId": 4,
+    "cName": "h",
+    "cAddress": "asjcc"
+  }
+]
+
+18:36:42.834 [ForkJoinPool-1-worker-2] INFO  com.intuit.karate - [print] expectedoutput-----> [
+  {
+    "cId": 1,
+    "cName": "abcd",
+    "cAddress": "fvev"
+  },
+  {
+    "cId": 2,
+    "cName": "abc",
+    "cAddress": "fve"
+  },
+  {
+    "cId": 3,
+    "cName": "abcd",
+    "cAddress": "fvev"
+  },
+  {
+    "cId": 4,
+    "cName": "h",
+    "cAddress": "asjcc"
+  }
+]
+
+18:36:42.838 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - [print] {
+  "cId": 2,
+  "cName": "abc",
+  "cAddress": "fve"
+}
+
+18:36:42.839 [ForkJoinPool-1-worker-2] INFO  com.intuit.karate - [print] {
+  "cId": 2,
+  "cName": "abc",
+  "cAddress": "fve"
+}
+
+18:36:42.846 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] expectedoutput-----> [
+  {
+    "cId": 1,
+    "cName": "abcd",
+    "cAddress": "fvev"
+  },
+  {
+    "cId": 2,
+    "cName": "abc",
+    "cAddress": "fve"
+  },
+  {
+    "cId": 3,
+    "cName": "abcd",
+    "cAddress": "fvev"
+  },
+  {
+    "cId": 4,
+    "cName": "h",
+    "cAddress": "asjcc"
+  }
+]
+
+18:36:42.847 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "cId": 2,
+  "cName": "abc",
+  "cAddress": "fve"
+}
+
+18:36:42.905 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/findAllCustomer
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_131)
+
+18:36:42.918 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 11.24
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 23 Jun 2021 13:06:42 GMT
+1 < Keep-Alive: timeout=60
+1 < Transfer-Encoding: chunked
+[{"cId":1,"cName":"abcd","cAddress":"fvev"},{"cId":2,"cName":"abc","cAddress":"fve"},{"cId":3,"cName":"abcd","cAddress":"fvev"},{"cId":4,"cName":"h","cAddress":"asjcc"}]
+
+18:36:42.931 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] response-----> [
+  {
+    "cId": 1,
+    "cName": "abcd",
+    "cAddress": "fvev"
+  },
+  {
+    "cId": 2,
+    "cName": "abc",
+    "cAddress": "fve"
+  },
+  {
+    "cId": 3,
+    "cName": "abcd",
+    "cAddress": "fvev"
+  },
+  {
+    "cId": 4,
+    "cName": "h",
+    "cAddress": "asjcc"
+  }
+]
+
+18:36:42.979 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] cId-----> 1
+18:36:42.983 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] url-----> http://localhost:8080
+18:36:43.329 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<pass>> feature 2 of 2: classpath:CustomerDetails.feature

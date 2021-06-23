@@ -1,0 +1,42 @@
+18:36:42.906 request:
+1 > GET http://localhost:8080/findAllCustomer
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_131)
+
+18:36:42.918 response time in milliseconds: 11.24
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 23 Jun 2021 13:06:42 GMT
+1 < Keep-Alive: timeout=60
+1 < Transfer-Encoding: chunked
+[{"cId":1,"cName":"abcd","cAddress":"fvev"},{"cId":2,"cName":"abc","cAddress":"fve"},{"cId":3,"cName":"abcd","cAddress":"fvev"},{"cId":4,"cName":"h","cAddress":"asjcc"}]
+
+18:36:42.931 [print] response-----> [
+  {
+    "cId": 1,
+    "cName": "abcd",
+    "cAddress": "fvev"
+  },
+  {
+    "cId": 2,
+    "cName": "abc",
+    "cAddress": "fve"
+  },
+  {
+    "cId": 3,
+    "cName": "abcd",
+    "cAddress": "fvev"
+  },
+  {
+    "cId": 4,
+    "cName": "h",
+    "cAddress": "asjcc"
+  }
+]
+
+18:36:42.979 [print] cId-----> 1
+18:36:42.983 [print] url-----> http://localhost:8080
+(Integer)

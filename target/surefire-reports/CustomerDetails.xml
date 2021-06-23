@@ -1,0 +1,116 @@
+<testsuite failures="0" name="CustomerDetails.feature" skipped="0" tests="4" time="23.060848">
+  <testcase classname="CustomerDetails" name="get call test" time="5.807315">
+    <system-out>Given url url ............................................................. passed
+* def expectedOutput = read('result.json') ................................ passed
+* def result = call read('1stCustomerDetails.feature') .................... passed
+Given path 'findAllCustomer' .............................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+Then print 'response-----&gt;',response ...................................... passed
+And match response[0].cId == 1 ............................................ passed
+And match response.*.cName != null ........................................ passed
+* def job_code = response[0].job_code ..................................... passed
+And match job_code == null ................................................ passed
+Then print 'cId-----&gt;',result.response.cId ................................ passed
+Then print 'url-----&gt;',url ................................................ passed</system-out>
+  </testcase>
+  <testcase classname="CustomerDetails" name="get second user" time="5.754552">
+    <system-out>Given url url ............................................................. passed
+* def expectedOutput = read('result.json') ................................ passed
+* def result = call read('1stCustomerDetails.feature') .................... passed
+Given path 'findAllCustomer' .............................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+Then print 'response-----&gt;',response ...................................... passed
+And match response[0].cId == 1 ............................................ passed
+And match response.*.cName != null ........................................ passed
+* def job_code = response[0].job_code ..................................... passed
+And match job_code == null ................................................ passed
+Then print 'cId-----&gt;',result.response.cId ................................ passed
+Then print 'url-----&gt;',url ................................................ passed
+Given url url ............................................................. passed
+* def expectedOutput = read('result.json') ................................ passed
+Given path 'findAllCustomer/2' ............................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+Then print 'expectedoutput-----&gt;',expectedOutput .......................... passed
+Then print response ....................................................... passed
+And match response == expectedOutput[1] ................................... passed
+And match expectedOutput == '#array' ...................................... passed</system-out>
+  </testcase>
+  <testcase classname="CustomerDetails" name="get second user" time="5.743418">
+    <system-out>Given url url ............................................................. passed
+* def expectedOutput = read('result.json') ................................ passed
+* def result = call read('1stCustomerDetails.feature') .................... passed
+Given path 'findAllCustomer' .............................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+Then print 'response-----&gt;',response ...................................... passed
+And match response[0].cId == 1 ............................................ passed
+And match response.*.cName != null ........................................ passed
+* def job_code = response[0].job_code ..................................... passed
+And match job_code == null ................................................ passed
+Then print 'cId-----&gt;',result.response.cId ................................ passed
+Then print 'url-----&gt;',url ................................................ passed
+Given url url ............................................................. passed
+* def expectedOutput = read('result.json') ................................ passed
+Given path 'findAllCustomer/2' ............................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+Then print 'expectedoutput-----&gt;',expectedOutput .......................... passed
+Then print response ....................................................... passed
+And match response == expectedOutput[1] ................................... passed
+And match expectedOutput == '#array' ...................................... passed
+Given url url ............................................................. passed
+* def expectedOutput = read('result.json') ................................ passed
+Given path 'findAllCustomer/2' ............................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+Then print 'expectedoutput-----&gt;',expectedOutput .......................... passed
+Then print response ....................................................... passed
+And match response == expectedOutput[1] ................................... passed
+And match expectedOutput == '#array' ...................................... passed</system-out>
+  </testcase>
+  <testcase classname="CustomerDetails" name="get second user" time="5.755563">
+    <system-out>Given url url ............................................................. passed
+* def expectedOutput = read('result.json') ................................ passed
+* def result = call read('1stCustomerDetails.feature') .................... passed
+Given path 'findAllCustomer' .............................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+Then print 'response-----&gt;',response ...................................... passed
+And match response[0].cId == 1 ............................................ passed
+And match response.*.cName != null ........................................ passed
+* def job_code = response[0].job_code ..................................... passed
+And match job_code == null ................................................ passed
+Then print 'cId-----&gt;',result.response.cId ................................ passed
+Then print 'url-----&gt;',url ................................................ passed
+Given url url ............................................................. passed
+* def expectedOutput = read('result.json') ................................ passed
+Given path 'findAllCustomer/2' ............................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+Then print 'expectedoutput-----&gt;',expectedOutput .......................... passed
+Then print response ....................................................... passed
+And match response == expectedOutput[1] ................................... passed
+And match expectedOutput == '#array' ...................................... passed
+Given url url ............................................................. passed
+* def expectedOutput = read('result.json') ................................ passed
+Given path 'findAllCustomer/2' ............................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+Then print 'expectedoutput-----&gt;',expectedOutput .......................... passed
+Then print response ....................................................... passed
+And match response == expectedOutput[1] ................................... passed
+And match expectedOutput == '#array' ...................................... passed
+Given url url ............................................................. passed
+* def expectedOutput = read('result.json') ................................ passed
+Given path 'findAllCustomer/2' ............................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+Then print 'expectedoutput-----&gt;',expectedOutput .......................... passed
+Then print response ....................................................... passed
+And match response == expectedOutput[1] ................................... passed
+And match expectedOutput == '#array' ...................................... passed</system-out>
+  </testcase>
+</testsuite>
